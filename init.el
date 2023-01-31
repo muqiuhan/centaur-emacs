@@ -50,6 +50,11 @@
 
 ;;; Code:
 
+(setq url-proxy-services
+      '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+	("http" . "127.0.0.1:7890")
+	         ("https" . "127.0.0.1:7890")))
+
 (when (version< emacs-version "26.1")
   (error "This requires Emacs 26.1 and above!"))
 
