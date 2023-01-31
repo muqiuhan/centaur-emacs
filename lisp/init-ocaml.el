@@ -38,7 +38,7 @@
     :hook (tuareg-mode . merlin-mode)
     :config
     (setq auto-mode-alist (append '(("\\.ml[ily]?$" . tuareg-mode)) auto-mode-alist)
-          merlin-command "~/.opam/5.0.0/bin/ocamlmerlin"))
+          merlin-command "~/.opam/default/bin/ocamlmerlin"))
 
   (use-package ocamlformat
     :config
