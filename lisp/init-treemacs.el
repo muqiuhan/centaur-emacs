@@ -54,7 +54,7 @@
         treemacs-missing-project-action  'remove
         treemacs-sorting                 'alphabetic-asc
         treemacs-follow-after-init       t
-        treemacs-width                   50
+        treemacs-width                   35
         treemacs-no-png-images           (not centaur-icon))
 
   (dolist (face '(treemacs-root-face
